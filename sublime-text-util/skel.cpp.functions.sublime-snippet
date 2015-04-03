@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[/***************************************
+* Author: Tyler Lubbers
+* Date: $1
+* Course: $2
+* Project: $3
+* Filename: $4.cpp
+****************************************/
+
+#include "$5.h"
+#include <iostream>
+#include <stdio>
+
+using namespace std;
+
+]]></content>
+<tabTrigger>skel.cpp.functions</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

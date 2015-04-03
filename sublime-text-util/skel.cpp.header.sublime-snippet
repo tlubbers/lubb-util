@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[/***************************************
+* Author: Tyler Lubbers
+* Date: $1
+* Course: $2
+* Project: $3
+* Filename: $4.h
+****************************************/
+
+#ifndef $5
+#define $6
+
+class $7 {
+	public:
+
+	private:
+};
+
+#endif $8//]]></content>
+
+<tabTrigger>skel.cpp.header</tabTrigger>
+
+</snippet>

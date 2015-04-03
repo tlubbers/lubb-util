@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+#
+# Name: Tyler Lubbers
+# Course:
+# Project:
+# Date:
+# Filename: Makefile
+#
+
+main: main.o class.o
+  g++ -o main main.o class.o
+
+main.o: main.cpp
+  g++ -c main.cpp
+
+class.o: class.h class.cpp
+  g++ -c class.cpp
+
+clean:
+  rm main *.o
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>skel.cpp.basicmake</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
