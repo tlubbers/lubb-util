@@ -18,6 +18,7 @@ brew tap caskroom/fonts
 # Apps
 apps=(
   dropbox
+  google-drive
   google-chrome
   firefox
   spotify
@@ -28,7 +29,6 @@ apps=(
   evernote
   flash
   github
-  google-drive
 )
 
 # Install apps to /Applications
