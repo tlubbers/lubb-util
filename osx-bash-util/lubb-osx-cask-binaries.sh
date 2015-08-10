@@ -19,16 +19,16 @@ brew tap caskroom/fonts
 apps=(
   dropbox
   google-chrome
-  appcleaner
   firefox
   spotify
-  vagrant
   iterm2
   sublime-text3
-  virtualbox
   mailbox
   vlc
-  transmission
+  evernote
+  flash
+  github
+  google-drive
 )
 
 # Install apps to /Applications
@@ -40,13 +40,13 @@ brew cask install --appdir="/Applications" ${apps[@]}
 # fonts
 fonts=(
   font-m-plus
-  font-clear-sans
   font-roboto
   font-lobster
   font-lobster-two
   font-league-gothic
   font-open-sans
   font-open-sans-condensed
+  font-source-code-pro
 )
 
 # install fonts
