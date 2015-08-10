@@ -11,3 +11,6 @@ fi
 
 # Update homebrew recipes
 brew update
+
+# Run brew doctor
+brew doctor
