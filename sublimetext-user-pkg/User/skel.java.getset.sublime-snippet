@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[public ${1:returnType} get${2:Property}(){
+  return ${3:property};
+ }
+
+ public void set${2:Property}(${1:returnType} ${3:property}){
+  this.${3:property} = ${3:property};
+ }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>skel.java.getset</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

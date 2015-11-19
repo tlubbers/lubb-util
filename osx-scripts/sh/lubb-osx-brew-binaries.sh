@@ -1,13 +1,16 @@
 #!/bin/bash
 
 # Lubb's Brew Binaries
-# Installs Essential Binaries 
+# Installs Essential Binaries
 
 binaries=(
-  ffmpeg
-  python
-  sshfs
   git
+  bash
+  bash-completion2
+  ffmpeg
+  sshfs
+  smlnj
+  python
 )
 
 echo "installing binaries..."

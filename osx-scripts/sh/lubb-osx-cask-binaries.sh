@@ -17,18 +17,18 @@ brew tap caskroom/fonts
 
 # Apps
 apps=(
-  dropbox
-  google-drive
-  google-chrome
-  firefox
-  spotify
   iterm2
+  cocoapods
+  dropbox
+  github-desktop
+  spotify
+  google-chrome
   sublime-text3
-  mailbox
+  transmission
+  keka
   vlc
-  evernote
-  flash
-  github
+  java7
+  swi-prolog
 )
 
 # Install apps to /Applications
@@ -36,6 +36,19 @@ apps=(
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
+# quicklook extensions
+ql=(
+  qlstephen
+  qlcolorcode
+  qlmarkdown
+  quicklook-json
+  qlprettypatch
+  quicklook-csv
+  betterzipql
+  webpquicklook
+)
+echo "installing quick look extensions..."
+brew cask install ${ql[@]}
 
 # fonts
 fonts=(

@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Character Table",
+		"DashDoc",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Package Control",
+		"Prolog",
+		"Rust",
+		"Schemr",
+		"SideBarEnhancements",
+		"SML (Standard ML)",
+		"SublimeREPL",
+		"Text Pastry",
+		"Theme - Spacegray",
+		"Themr"
+	]
+}
