@@ -7,10 +7,13 @@ binaries=(
   git
   bash
   bash-completion2
-  ffmpeg
   sshfs
+  wget
+  mackup
   smlnj
   python
+  rust
+  jenv
 )
 
 echo "installing binaries..."
